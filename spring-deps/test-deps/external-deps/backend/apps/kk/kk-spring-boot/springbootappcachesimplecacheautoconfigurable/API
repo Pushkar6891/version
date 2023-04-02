@@ -1,0 +1,14 @@
+----------------------------------------------------------------------------------
+getTicketById::
+http://localhost:8080/api/tickets/ticket/{ticketId}
+----------------------------------------------------------------------------------
+deleteTicket::
+http://localhost:8080/api/tickets/ticket/{ticketId}
+----------------------------------------------------------------------------------
+updateTicket::
+http://localhost:8080/api/tickets/ticket/{ticketId}/{newEmail:.+}
+
+http://localhost:8080/actuator
+http://localhost:8080/actuator/health
+
+https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.caching

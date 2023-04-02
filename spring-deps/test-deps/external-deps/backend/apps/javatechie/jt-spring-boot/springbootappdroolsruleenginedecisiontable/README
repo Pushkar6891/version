@@ -1,0 +1,89 @@
+POST
+http://localhost:8080/order
+{
+	"name":"IPhone 6",
+	"cardType":"HDFC",
+	"price":9000
+}
+Response Body:
+{
+    "name": "IPhone 6",
+    "cardType": "HDFC",
+    "discount": 0,
+    "price": 9000
+}
+
+POST
+http://localhost:8080/order
+{
+	"name":"IPhone 8",
+	"cardType":"HDFC",
+	"price":110000
+}
+Response Body:
+{
+    "name": "IPhone 8",
+    "cardType": "HDFC",
+    "discount": 10,
+    "price": 110000
+}
+
+POST
+http://localhost:8080/order
+{
+	"name":"Samsung Galaxy 9",
+	"cardType":"ICICI",
+	"price":14000
+}
+Response Body:
+{
+    "name": "Samsung Galaxy 9",
+    "cardType": "ICICI",
+    "discount": 0,
+    "price": 14000
+}
+
+POST
+http://localhost:8080/order
+{
+	"name":"Samsung Galaxy Prime",
+	"cardType":"ICICI",
+	"price":20000
+}
+Response Body:
+{
+    "name": "Samsung Galaxy Prime",
+    "cardType": "ICICI",
+    "discount": 8,
+    "price": 20000
+}
+
+POST
+http://localhost:8080/order
+{
+	"name":"Redmi Prime S1",
+	"cardType":"DBS",
+	"price":12000
+}
+Response Body:
+{
+    "name": "Redmi Prime S1",
+    "cardType": "DBS",
+    "discount": 0,
+    "price": 12000
+}
+
+POST
+http://localhost:8080/order
+{
+	"name":"Redmi Prime S10",
+	"cardType":"DBS",
+	"price":25000
+}
+Response Body:
+{
+    "name": "Redmi Prime S10",
+    "cardType": "DBS",
+    "discount": 15,
+    "price": 25000
+}

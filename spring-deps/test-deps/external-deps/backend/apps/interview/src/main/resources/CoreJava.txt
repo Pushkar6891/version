@@ -1,0 +1,25 @@
+Core Java
+
+Important components involved in running a Java Program?
+
+JDK = JRE (rt.jar) + JVM
+javac .java -> .class
+jvm .class interpret by JIT -> machine code -> OS
+
+What are constructors?
+
+Constructor is used to initialize properties of an object when it is created
+Constructor has same as class name
+Constructor invoked once
+Constructor this can be used
+Constructor super to invoke Parent class constructor
+
+Abstract Class vs Interface
+Abstract Class has State (Member Variables)     Interface does not have instance variables
+Abstract Class can have constructor             Interface does not have constructor
+                                                Interface support default and static methods for backward compatibility
+Vehicle                                         Dog
+Car Plane Boat                                  Dalmation  Daburman Poodle
+Abstract Class used for abstracting both state and behaviour    Interface used for API designing
+
+                                                public, static, final fields

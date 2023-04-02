@@ -1,0 +1,7 @@
+System.out.println("---------------------------");
+Random random = new Random();
+DoubleStream doubleStream = random.doubles(5);
+doubleStream.forEach(System.out::println);
+System.out.println("---------------------------");
+IntStream chars = "abc".chars();
+chars.forEach(System.out::println);

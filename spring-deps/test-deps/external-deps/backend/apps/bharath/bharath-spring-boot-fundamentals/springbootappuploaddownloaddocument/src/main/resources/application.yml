@@ -1,0 +1,20 @@
+server:
+    port: 8080
+    servlet:
+        context-path: /documentweb
+spring:
+    datasource:
+        username: root
+        password: Welcome@123
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/documentdb?sessionVariables=sql_mode='NO_ENGINE_SUBSTITUTION'&jdbcCompliantTruncation=false
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQL8Dialect
+        show-sql: true
+    thymeleaf:
+        prefix:  classpath:/templates/WEB-INF/jsps/
+        suffix: .html

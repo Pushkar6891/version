@@ -1,0 +1,42 @@
+OOPS
+
+attributes/properties/variables
+behaviour/functionality
+
+Map real world problems to software solutions
+
+Abstraction
+Encapsulation
+Inheritance
+Polymorphism
+
+Association
+Aggregation
+Composition
+
+Method Overloading
+Method Overriding
+Method Hiding
+
+Encapsulation
+Protecting properties and functionality of an object from other objects
+Class : data members and member functions
+
+Inheritance
+Re-usability : Defining an object by accessing existing object functionality + update
+is-a relationship
+
+Abstraction
+Providing specification of an API and hiding the implementation by sub classes
+Hide internal implementation
+interface and abstract class
+
+Polymorphism
+Method Overloading
+Method Overriding
+
+Variables point to memory location where data is stored
+
+Static - Class Level
+Non-Static - Object Level
+

@@ -1,0 +1,15 @@
+POST
+http://localhost:9192/authenticate
+{
+    "userName":"javatechie",
+    "password":"password"
+}
+Response:
+eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqYXZhdGVjaGllIiwiZXhwIjoxNjMxNDc5MTM4LCJpYXQiOjE2MzE0NDMxMzh9.6zFDIFSkp4T-c-D_O0rkiDdfzHV76bX1DbsNBDjA-HQ
+
+GET
+http://localhost:9192/
+Authorization :
+eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqYXZhdGVjaGllIiwiZXhwIjoxNjMxNDc5MTM4LCJpYXQiOjE2MzE0NDMxMzh9.6zFDIFSkp4T-c-D_O0rkiDdfzHV76bX1DbsNBDjA-HQ
+Response Body:
+Welcome to javatechie !!

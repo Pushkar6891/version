@@ -1,0 +1,10 @@
+insert into ticketdb.ticket values(1,1000,'First Class');
+insert into ticketdb.ticket values(2,200,'General');
+insert into ticketdb.ticket values(3,600,'Second Class');
+insert into ticketdb.ticket values(4,100,'General');
+insert into ticketdb.ticket values(5,1000,'First Class');
+insert into ticketdb.ticket values(6,500,'Second Class');
+insert into ticketdb.ticket values(7,1300,'First Class');
+insert into ticketdb.ticket values(8,230,'General');
+insert into ticketdb.ticket values(9,1100,'First Class');
+insert into ticketdb.ticket values(10,300,'General');

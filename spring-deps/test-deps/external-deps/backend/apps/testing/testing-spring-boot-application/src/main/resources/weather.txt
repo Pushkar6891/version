@@ -1,0 +1,8 @@
+indore,20,30.5
+bengaluru,30,35,9
+mumbai
+kolkata,35,45
+chennai,40,46
+ahemdabad,30.7,38
+hyderabad
+jaipur,42,46

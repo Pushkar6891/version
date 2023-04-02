@@ -1,0 +1,36 @@
+POST
+http://localhost:8080/addBook
+{
+    "id":0,
+    "bookName":"Discovery of India",
+    "authorName":"Jawaharlal Nehru"
+}
+
+POST
+http://localhost:8080/addBook
+{
+	"id":1,
+    "bookName":"Geetanjali",
+    "authorName":"Ravindra Nath Tagore"
+}
+
+POST
+http://localhost:8080/addBook
+{
+	"id":2,
+    "bookName":"My Experiments with Truth",
+    "authorName":"Mahatma Gandhi"
+}
+
+GET
+http://localhost:8080/findAllBooks
+
+GET
+http://localhost:8080/findAllBooks/0
+http://localhost:8080/findAllBooks/1
+http://localhost:8080/findAllBooks/2
+
+DELETE
+http://localhost:8080/delete/0
+http://localhost:8080/delete/1
+http://localhost:8080/delete/2
