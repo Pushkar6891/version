@@ -1,0 +1,13 @@
+https://www.youtube.com/watch?v=8pG80eERkE8&list=PLVz2XdJiJQxw-jVLpBfVn2yqjvA1Ycceq&index=120
+
+POST
+http://localhost:8080/employee
+{
+   "employeePKId":{
+      "employeeId":100,
+      "deptId":11
+   },
+   "name":"pushkar",
+   "email":"pushkarchauhan91@gmail.com",
+   "phone":"9826396465"
+}

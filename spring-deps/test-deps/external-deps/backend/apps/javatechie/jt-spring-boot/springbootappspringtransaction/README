@@ -1,0 +1,39 @@
+POST:
+http://localhost:9191/bookFlightTicket
+You will get exception because 18000 > 12000 and outside credit limit
+{
+   "passengerInfo":{
+      "name":"Pushkar",
+      "email":"pushkarchauhan91@gmail.com",
+      "source":"Indore",
+      "destination":"bangalore",
+      "travelDate":"14-12-2021",
+      "pickupTime":"4 PM",
+      "arrivalTime":"6 PM",
+      "fare":18000.00
+   },
+   "paymentInfo":{
+      "accountNo":"acc1",
+      "cardType":"DEBIT"
+   }
+}
+
+POST:
+http://localhost:9191/bookFlightTicket
+You will not get exception because 9000 < 12000 and within credit limit
+{
+   "passengerInfo":{
+      "name":"Pushkar",
+      "email":"pushkarchauhan91@gmail.com",
+      "source":"Indore",
+      "destination":"bangalore",
+      "travelDate":"14-12-2021",
+      "pickupTime":"4 PM",
+      "arrivalTime":"6 PM",
+      "fare":9000.00
+   },
+   "paymentInfo":{
+      "accountNo":"acc1",
+      "cardType":"DEBIT"
+   }
+}

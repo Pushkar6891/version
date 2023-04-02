@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h2>Locations:</h2>
+<table>
+<tr>
+<th>id</th>
+<th>code</th>
+<th>name</th>
+<th>type</th>
+</tr>
+
+<tr th:each="location:${locations}">
+<td th:text="${location.id}"></td>
+<td th:text="${location.code}"></td>
+<td th:text="${location.name}"></td>
+<td th:text="${location.type}"></td>
+
+<td><a th:href="@{'deleteLocation?id='+${location.id}}">delete</a></td>
+<td><a th:href="@{'showUpdate?id='+${location.id}}">edit</a></td>
+</tr>
+</c:forEach>
+</table>
+<a href="showCreate">Add Location</a>
+</body>
+</html>

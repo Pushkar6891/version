@@ -1,0 +1,42 @@
+POST
+http://localhost:9090/saveBook
+{
+	"name":"Java",
+	"pages":1000
+}
+{
+	"name":"Dot Net",
+	"pages":2000
+}
+{
+	"name":"PHP",
+	"pages":3000
+}
+
+{
+    "id": 1,
+    "name": "Java",
+    "pages": 1000
+}
+{
+    "id": 2,
+    "name": "Dot Net",
+    "pages": 2000
+}
+{
+    "id": 3,
+    "name": "PHP",
+    "pages": 3000
+}
+
+GET
+http://localhost:9090/getInfo/1
+
+PUT
+http://localhost:9090/update/1/500
+
+http://localhost:9090/delete/{id}
+
+
+
+

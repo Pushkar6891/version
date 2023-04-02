@@ -1,0 +1,22 @@
+POST
+http://localhost:8080/save
+[
+	{
+		"id":1,
+		"name":"IPhone",
+		"price":1000.00
+	},
+	{
+		"id":2,
+		"name":"Samsung",
+		"price":900.00
+	},
+	{
+		"id":3,
+		"name":"Redmi",
+		"price":500.00
+	}
+]
+
+GET
+http://localhost:8080/findProducts

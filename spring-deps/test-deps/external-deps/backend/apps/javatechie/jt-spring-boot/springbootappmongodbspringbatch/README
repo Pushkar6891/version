@@ -1,0 +1,32 @@
+POST
+http://localhost:8080/addPersons
+[
+   {
+      "custId":1,
+      "name":"Pushkar Chauhan",
+      "email":"pushkarchauhan91@gmail.com",
+      "contactNo":"9826396465",
+      "dob":"06-08-1991",
+      "status":"Pending",
+      "outstandingAmount":1000.00,
+      "lastDueDate":"13-09-2021"
+   },
+   {
+      "custId":2,
+      "name":"Amit Singh",
+      "email":"amit.singh@gmail.com",
+      "contactNo":"9826312345",
+      "dob":"01-03-1990",
+      "status":"Closed",
+      "outstandingAmount":2000.00,
+      "lastDueDate":"13-09-2021"
+   }
+]
+
+GET
+http://localhost:8080/findAllPersons
+
+GET
+http://localhost:8080/findAllPersons/1
+http://localhost:8080/findAllPersons/2
+

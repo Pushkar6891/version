@@ -1,0 +1,5 @@
+# Spring-HighChart-Graph
+how to generate dynamic graph using High-chart API
+
+http://localhost:8080/displayBarGraph
+http://localhost:8080/displayPieChart

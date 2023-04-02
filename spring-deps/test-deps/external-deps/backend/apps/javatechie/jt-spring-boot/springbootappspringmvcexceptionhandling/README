@@ -1,0 +1,10 @@
+GET:
+http://localhost:8080/getPrice/Mobile
+http://localhost:8080/getPrice/Bike
+
+GET:
+http://localhost:8080/getPrice/Car
+{
+    "errorCode": 500,
+    "errorMessage": "order not found with product : Car"
+}

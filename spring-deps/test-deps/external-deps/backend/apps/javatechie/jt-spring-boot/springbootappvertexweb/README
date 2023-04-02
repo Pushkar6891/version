@@ -1,0 +1,7 @@
+POST
+http://localhost:9098/message
+Response Body:
+{
+  "id" : 567,
+  "name" : "Java Techie"
+}

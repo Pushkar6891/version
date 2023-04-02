@@ -1,0 +1,9 @@
+Link : https://www.youtube.com/watch?v=8c8vEBUELYE&list=PLTyWtrsGknYdZlO7LAZFEElWkEk59Y2ak&index=35
+
+curl -H 'Content-Type: text/plain' http://localhost:8080/supply
+
+curl -H 'Content-Type: text/plain' http://localhost:8080/consume -d 'Hello TechPrimer'
+
+curl -H 'Content-Type: text/plain' http://localhost:8080/function -d 'Hello TechPrimer'
+
+curl -H 'Content-Type: text/plain' http://localhost:8080/hello -d 'TechPrimer'

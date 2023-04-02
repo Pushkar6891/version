@@ -1,0 +1,3 @@
+chmod 754 meaning
+
+754 - owner can read/write/execute, group can read/execute, others can read

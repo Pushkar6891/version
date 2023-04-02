@@ -1,0 +1,35 @@
+Setup the mysql container:
+
+docker run -d -p 6666:3306 --name=docker-mysql --env="MYSQL_ROOT_PASSWORD=Welcome@123" --env="MYSQL_DATABASE=reservation" mysql
+
+docker exec -it docker-mysql bash
+
+# mysql -u root -p 
+Welcome@123
+
+mysql> show databases;
+
+use reservation
+
+mysql> show tables; 
+
+## Run all DB Scripts now
+
+cd /Users/pushkarchauhan91/Documents/workspace_sts/parent/java/version/spring-deps/test-deps/external-deps/backend/apps/bharath/springbootappflightservicesdocker/DBScript
+
+Another Terminal:
+
+docker exec -i docker-mysql mysql -uroot -pWelcome@123 reservation <flightdb.sql
+
+
+
+Application Container and testing:
+mvn clean install
+cd /Users/pushkarchauhan91/Documents/workspace_sts/parent/java/version/spring-deps/test-deps/external-deps/backend/apps/bharath/springbootappflightservicesdocker
+docker build -f Dockerfile -t reservation_app .
+
+docker run -t --link docker-mysql:mysql -p 10555:8080 reservation_app
+
+http://localhost:10555/flightservices/flights
+
+The --link command will allow the reservation_app container to use the port of MySQL

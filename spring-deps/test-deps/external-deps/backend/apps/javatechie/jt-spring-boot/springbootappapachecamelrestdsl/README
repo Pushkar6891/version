@@ -1,0 +1,19 @@
+GET
+http://localhost:9090/hello-world
+
+POST
+http://localhost:9090/addOrder
+{
+	"id":1,
+    "name":"IPhone",
+    "price":1000.00
+}
+Response Body:
+{
+    "id": 1,
+    "name": "IPhone",
+    "price": 1000.0
+}
+
+GET
+http://localhost:9090/getOrders

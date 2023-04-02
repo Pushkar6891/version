@@ -1,0 +1,40 @@
+server:
+  port: 8081
+spring:
+  security:
+    user:
+      name: pushkar
+      password: pushkar
+  datasource:
+    driverClassName: org.h2.Driver
+    password: ''
+    url: 'jdbc:h2:mem:testdb'
+    username: sa
+  sql:
+    init:
+      mode: always
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.H2Dialect
+    defer-datasource-initialization: true
+jwt:
+  get:
+    token:
+      uri: /authenticate
+  http:
+    request:
+      header: Authorization
+  refresh:
+    token:
+      uri: /refresh
+  signing:
+    key:
+      secret: mySecret
+  token:
+    expiration:
+      in:
+        seconds: 604800
