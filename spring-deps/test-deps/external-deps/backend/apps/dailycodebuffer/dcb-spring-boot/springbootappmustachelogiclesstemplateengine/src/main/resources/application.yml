@@ -1,4 +1,0 @@
-spring:
-  mustache:
-    prefix: classpath:/templates/
-    suffix: .mustache

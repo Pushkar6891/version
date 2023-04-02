@@ -1,3 +1,0 @@
-this is a test file
-this file is used in ClientTester4 program
-have a nice day

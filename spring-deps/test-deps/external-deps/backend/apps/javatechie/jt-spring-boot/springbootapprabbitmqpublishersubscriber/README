@@ -1,7 +1,0 @@
-POST
-http://localhost:9292/order/empire restaurant
-{
-    "name":"Chicken Biryani",
-    "qty":2,
-    "price":400.00
-}

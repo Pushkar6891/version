@@ -1,4 +1,0 @@
-spring:
-  banner:
-    image:
-      location: classpath:banner.png

@@ -1,8 +1,0 @@
-OPENAPI
-http://localhost:9191/product-api-docs
-
-To download API Docs:
-http://localhost:9191/product-api-docs.yaml
-
-Swagger:
-http://localhost:9191/swagger-ui.html

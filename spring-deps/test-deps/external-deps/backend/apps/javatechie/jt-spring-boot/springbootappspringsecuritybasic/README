@@ -1,6 +1,0 @@
-http://localhost:8080/rest/auth/getMsg
-username : dummy admin
-password : password
-
-username : dummy user
-password : password
